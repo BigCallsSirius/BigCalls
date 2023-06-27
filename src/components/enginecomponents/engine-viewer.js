@@ -1,6 +1,5 @@
 import { useEffect, useCallback, useState } from "react";
 import  { Unity, useUnityContext } from "react-unity-webgl";
-import { MindARViewThree } from "../mindarcomponents/mindar-viewer";
 import {MindARReact} from '../mindarcomponents/mindar-controller';
 
 let srcVideo = null;
